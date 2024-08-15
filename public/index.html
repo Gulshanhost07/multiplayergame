@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Game</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button id="hostButton" disabled>Host</button>
+        <button id="joinButton" disabled>Join</button>
+    </div>
+
+    <div id="joinPopup" class="popup hidden">
+        <h2>Join Game</h2>
+        <input type="text" id="roomCodeInput" placeholder="Enter Room Code">
+        <button id="joinGameButton">Join</button>
+        <button id="backButton">Back</button>
+    </div>
+
+    <div id="popupOverlay" class="popup-overlay hidden"></div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
